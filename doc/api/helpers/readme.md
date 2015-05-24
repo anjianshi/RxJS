@@ -190,7 +190,7 @@ Plucks a property from the object.
 1. `property` *(String)*: The property name to pluck from the object.
 
 #### Returns
-*(Boolean)*: `true` if equal; else `false`.
+*(Any)*: The property value plucked from the object.
 
 #### Example
 
