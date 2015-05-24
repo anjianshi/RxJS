@@ -16,7 +16,7 @@ Generates an observable sequence by iterating a state from an initial state unti
 
 #### Example
 ```js
-// Generate a value with an absolute time with an offset of 100ms multipled by value
+// Generate a value with an relative time with an offset of 100ms multipled by value
 var source = Rx.Observable.generateWithRelativeTime(
     1,
     function (x) { return x < 4; },
